@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, rgb(30, 30, 48),rgb(74, 2, 2));
+}
+
+
+
+.main-cont{
+    width: 350px;
+    max-height: 100vh;
+    background-color: aliceblue;
+    border-radius: 9px;
+    overflow: auto;
+    text-transform: capitalize;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'poppies',Arial, sans-serif;
+    padding: 20px;
+
+
+}
+
+
+
+
+@media (min-width:1024px) {
+    
+
+
+    .main-cont{
+        width: 540px;
+        max-height: 100vh;
+        background-color: aliceblue;
+        border-radius: 9px;
+        overflow: auto;
+        text-transform: capitalize;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'poppies',Arial, sans-serif;
+        padding: 20px;
+    
+    
+    }
+}
+
+input{
+    height: 47px;
+    width: 89%;
+    border: 1px solid lightslategray;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.my_btn{
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid lightpink;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+
+}
+input::placeholder{
+    color: coral;
+}
+
+.your-list{
+    width: 100%;
+    padding: 30px;
+}
+
+.list-cont{
+    list-style: none;
+    height: 45px;
+    width: 87%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    margin-bottom: 7px;
+}
+.lebal-cont{
+    height: 46px;
+    width: 89%;
+    background-color: cadetblue;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 9px;
+    border-left: 7px solid lightslategray;
+    border-radius: 8px;
+
+}
+.btn-btn{
+    border: none;
+    background-color: transparent;
+
+}
+
+.line-id{
+    text-decoration: line-through;
+}
+
+.mysave_btn{
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    margin-top: 7px;
+    border-radius: 8px;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+}
+

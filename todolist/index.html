@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice todolist</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/bff9bff389.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-cont">
+        <h1>todo-list</h1>
+        <br><br>
+        <input type="text" placeholder="write somthing here......." id="inputBox">
+        <br>
+        <button class="my_btn" onclick="createNewTodo()">Add</button>
+
+        <br>
+        <div class="your-list">
+
+            <h2>my list</h2>
+           <ul id="listContainer"></ul>
+        </div>
+        <button class="mysave_btn" onclick="onSaveData()">save</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
